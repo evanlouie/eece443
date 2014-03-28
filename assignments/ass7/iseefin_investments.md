@@ -6,6 +6,15 @@
 #### Intended For: Phillipe Kruchten & Associates
 #### By: Evan Louie (72210099)
 
+##### Assumptions:
+* Preliminary **SRS** has been written (which would include the use-case information we used in Appendix A)
+* **Vision** document has been written
+* **Business Case** document has been written based on the Vision document
+* **Risk List** has been compiled from the Business Cases
+* The data derived/included in **Assignment 3** is still valid and that the team is consisting of **5** people and are paid $5,500/month. However, because all the people are graduating, they will be working **Full Time** (>= 40 hours/week).
+ 
+
+
 ---
 
 ####Revision History
@@ -29,7 +38,7 @@ The following people use the *Software Development Plan*:
 
 ### 1.2 Scope
 This Software Development Plan describes the overall plan to be used by the ISeeFin project, including deployment of the product. The details of the individual iterations will be described in the Iteration Plans.
-The plans as outlined in this document are based upon the product requirements as defined in the *Use Case Document*.
+The plans as outlined in this document are based upon the product requirements as defined in the *Use Case Document* (Appendix A).
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 TODO
@@ -90,18 +99,20 @@ The Software Development Plan will be revised prior to the start of each Iterati
 
 Version | Phase | Target Date
 :----   | :---- | ------------:
-2 | Inception   | June 24, 2014
-3 | Elaboration | August 5, 2014
-4.1 | Construction Iteration 1 | September 20, 2014
-4.2 | Construction Iteration 2 | October 10, 2014
-4.3 | Construction Iteration 3 | October 30, 2014
-4.4 | Construction Iteration 4 | November 10, 2014
-4.5 | Construction Iteration 5 | December 1, 2014
-5 | Transition | January 8, 2014
+2 | Inception   | May 10, 2014
+3 | Elaboration | May 25, 2014
+4.1 | Construction Iteration 1 | June 10, 2014
+4.2 | Construction Iteration 2 | June 24, 2014
+4.3 | Construction Iteration 3 | July 8, 2014
+4.4 | Construction Iteration 4 | July 22, 2014
+4.5 | Construction Iteration 5 | August 5, 2014
+4.6 | Construction Iteration 6 | August 19, 2014
+4.7 | Construction Iteration 7 | September 2, 2014
+5 | Transition | September 16, 2014
 
 ## 3. Project Organization
 ### 3.1 Organizational Structure
-The team will maintain a flat management structure in order to maintain agility and ease communication across the team.  However, there will be key roles deligated to certain people to maintain a single point of communication for important jobs as well as maintain accountability for milestones (see 3.3).
+The team will maintain a flat management structure in order to maintain agility and ease communication across the team.  However, there will be key roles delegated to certain people to maintain a single point of communication for important jobs as well as maintain accountability for milestones (see 3.3). As such, project roles will be delegated in accordance to those mentioned in the Rational Unified Process (RUP).  However, we will not be strictly following RUP for 
 
 ### 3.2 External Interfaces
 The project will maintain largely in-house and within the one individual development team.  However input and feedback will be taken into account from investors and end-user asked to test the system.
@@ -109,7 +120,7 @@ The project will maintain largely in-house and within the one individual develop
 ### 3.3 Roles and Responsibilities
 Person | Role within Rational Unified Process
 ---|---
-Evan Louie | Project Manager, Deployment Manager, Requirements Reviewer, Configurtion Manager, Change Control Manager
+Evan Louie | Project Manager, Deployment Manager, Requirements Reviewer, Configuration Manager, Change Control Manager
 Jeff Chan | Project Reviewer, Requirements Reviewer, Architecture Reviewer
 Theo Ng | System Analyst, Requirements Specifier, Test Manager, Test Analyst 
 Kaya Gayos | Requirements Reviewer, Architecture Reviewer
@@ -119,13 +130,89 @@ All | Designer, Implementer, Code Reviewer, Integrator, Test Designer, Tester, T
 
 ## 4. Management Process
 ### 4.1 Project Estimates
-The construction phase it estimated to take approximately 3000 Person-Hours to complete (refer to Use-Case Point Analysis of Appendix A).  Add to this a minimum of 1000 Person-Hours to test and deploy, the project will take approximately 4000 Person-Hours and cost 
+The Inception and Construction phases are estimated to take approximately 3000 Person-Hours to complete (refer to Use-Case Point Analysis of Appendix A).  Add to this a minimum of 200 Person-Hours for Transition, the project will take approximately 3200 Person-Hours (4 Months with 5 staff members) and cost $110,000.00.
+
+For a more in-depth estimation analyses, refer to to Appendix A (Use-Case Analysis Document).
+
 ### 4.2 Project Plan
 #### 4.2.1 Phase Plan
 #### 4.2.2 Iteration Objectives
-#### 4.2.3 Releases
-#### 4.2.4 Project Schedule
-#### 4.2.5 Project Resourcing
-### 4.3 Project Monitoring and Control
 
+Phase | Iteration | Objective
+------|-----------|----------
+Inception | 1 | Objective
+Elaboration | 1 | Objective
+Construction | 1 | Obj
+Construction | 2 | Obj
+Construction | 3 | Obj
+Construction | 4 | Obj
+Construction | 5 | Obj
+Construction | 6 | Obj
+Construction | 7 | Obj
+Transition | 1 | Obj
+
+#### 4.2.3 Releases
+
+**Version Name Convention**: &#60;Major>.&#60;Minor>.&#60;BugFix>
+
+At the very end of every phase/iteration (minus Inception), the product will be in some form of a shippable state.  As such, from Elaboration to Construction Iteration 7, their will be 7 versions ranging from 0.0.0 - 0.6.0 which will all be considered alpha/beta releases.
+
+After the completion of the transition phase, 1.0.0 (final) will be released.
+
+#### 4.2.4 Project Schedule
+TODO
+#### 4.2.5 Project Resourcing
+##### 4.2.5.1 Staffing Plan
+The project is planned to require the usage of the 5 preexisting members of the ISeeFin team.  The team already has the required software developers, UI/UX specialists, and business specialists required to cover all aspects required for development.
+
+##### 4.2.5.2 Resource Acquisition Plan
+All the staff needed to complete this project are preexisting members of the ISeeFin team.  Planning has been done the assumption that only these 5 people will be used.
+
+##### 4.2.5.3 Training Plan
+Staff members have worked together as a team previously, as such, little to no is required. 
+### 4.3 Project Monitoring and Control
+#### 4.3.1 Requirements Management
+High level requirements and goal are found within the Vision document.  During Inception, the product backlog will be generated and act as the pool of requirements.  Once Inception is completed and the product backlog generated, adding to the backlog will either occur out of necessity found by the team, or by external stakeholders who will contact the product owner to relay any such change requests.  Any change request, whether it be to add/remove/modify a user story in the product backlog, will be evaluated at the end of current phase during the phase review.
+
+#### 4.3.2 Schedule and Budget Control
+Expenses are monitored by the project manager, and reported and assessed monthly. (See Reporting and Measurement below).
+
+The project manager maintains the Gantt and burn down charts monitoring the expected date of each milestone.  The user stories in the sprint backlog are broken down into tasks, said tasks are assigned to individuals.  From the amount of tasks completed for a given user story, the project manager will extrapolated whether or not the project is on schedule.  Changes in the schedule will be escalated to the project sponsors, who will then decide whether to alter scope in order to preserve target completion dates.
+
+#### 4.3.3 Quality Control
+Development will engage in Test Driven Development to minimize defects.  However, found defects will be recorded and tracked as "bugs", and defects metrics will be gathered  (see Reporting and Measurement below).
+
+All deliverables and code is required to go through their respective review process.  All code will go under code review before merging to parent branch.
+
+Any and all defects found during review which are unable to be released prior to end-of-sprint must be captured as bugs on the product backlog and be considered high priority within the next sprint.
+
+#### 4.3.4 Reporting and Measurement
+**Reporting Artifacts:**
+
+* Product Backlog
+* Burn-down Chart
+* Gantt Chart
+
+The product backlog will measure overall progress and completion of functionality.  It will also measure earned value (through story points) and total defects opened/closed.
+
+The Burn-down chart will measure/report velocity of completion and whether or not the project is on schedule.
+
+The Gantt Chart will specify the tentative schedule and work flow for the team over the entire project life.  The Gantt chart will be modified as the project proceeds based on the product backlog and burn-down chart.
+
+#### 4.3.5 Risk Management
+Overarching project risks will be identified in the Inception Phase.  Subsequently, during the kickoff of every phase/iteration, potential risks will be identified specific to the phase/iteration and added to this table:
+
+Risk Ranking (High, Medium, Low) | Description/Impact | Mitigation Strategy
+---------------------------------|--------------------|---------------------
+asdf | asf | asdf
+
+#### 4.3.6 Configuration Management
+Appropriate tools will be selected which provide a database of Change Requests and a controlled versioned repository of project artifacts.
+
+All source code, test scripts, and data files are included in baselines. Documentation related to the source code is also included in the baseline, such as design documentation. All customer deliverable artifacts are included in the final baseline of the iteration, including executables.
+
+The Change Requests are reviewed and approved by a majority vote at the end or beginning of a spring (review or kickoff).
+
+Full backups are performed bi-weekly and incrementals are performed nightly.
 ## 5. Annexes
+this document refers to many aspects of the Rational Unified Process.
