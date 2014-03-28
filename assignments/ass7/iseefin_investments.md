@@ -112,7 +112,7 @@ Version | Phase | Target Date
 
 ## 3. Project Organization
 ### 3.1 Organizational Structure
-The team will maintain a flat management structure in order to maintain agility and ease communication across the team.  However, there will be key roles delegated to certain people to maintain a single point of communication for important jobs as well as maintain accountability for milestones (see 3.3). As such, project roles will be delegated in accordance to those mentioned in the Rational Unified Process (RUP).  However, we will not be strictly following RUP for 
+The team will maintain a flat management structure in order to maintain agility and ease communication across the team.  However, there will be key roles delegated to certain people to maintain a single point of communication for important jobs as well as maintain accountability for milestones (see 3.3). As such, project roles will be delegated in accordance to those mentioned in the Rational Unified Process (RUP).  However, internal development practices will follow more closely with those of a SCRUM team.
 
 ### 3.2 External Interfaces
 The project will maintain largely in-house and within the one individual development team.  However input and feedback will be taken into account from investors and end-user asked to test the system.
@@ -123,9 +123,8 @@ Person | Role within Rational Unified Process
 Evan Louie | Project Manager, Deployment Manager, Requirements Reviewer, Configuration Manager, Change Control Manager
 Jeff Chan | Project Reviewer, Requirements Reviewer, Architecture Reviewer
 Theo Ng | System Analyst, Requirements Specifier, Test Manager, Test Analyst 
-Kaya Gayos | Requirements Reviewer, Architecture Reviewer
+Kaya Gayos | Requirements Reviewer, Architecture Reviewer, Design Reviewer, User Interface Designer
 Matt Park| Software Architect
-Linda Peng | Design Reviewer, User Interface Designer
 All | Designer, Implementer, Code Reviewer, Integrator, Test Designer, Tester, Technical Writer
 
 ## 4. Management Process
@@ -140,16 +139,16 @@ For a more in-depth estimation analyses, refer to to Appendix A (Use-Case Analys
 
 Phase | Iteration | Objective
 ------|-----------|----------
-Inception | 1 | Objective
-Elaboration | 1 | Objective
-Construction | 1 | Obj
-Construction | 2 | Obj
-Construction | 3 | Obj
-Construction | 4 | Obj
-Construction | 5 | Obj
-Construction | 6 | Obj
-Construction | 7 | Obj
-Transition | 1 | Obj
+Inception | 1 | Define a set of high level requirements and goals for the final product which both the team and investors can sign off on. Specify what technologies will be used.
+Elaboration | 1 | Iterate and prototype on the high level requirements, refining user stories into tasks lists generating sprint backlogs.
+Construction | 1 | Complete database services layer. First UI prototype completed.
+Construction | 2 | User creation and login/logout, integration of UI assets and business logic. 
+Construction | 3 | Portfolio creation and automated portfolio evaluation.
+Construction | 4 | Connect to external services to get live currency and tax information.
+Construction | 5 | Generate and submit automatically submit tax forms
+Construction | 6 | 
+Construction | 7 | Change request freeze.  All lingering bugs and tasks in product backlog to be emptied.
+Transition | 1 | Final testing and deployment
 
 #### 4.2.3 Releases
 
