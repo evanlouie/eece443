@@ -1,31 +1,3 @@
-# ISeeFin Investments
-***
-
-## Software Development Plan
-### EECE443 Assignment 7
-#### Intended For: Phillipe Kruchten & Associates
-#### By: Evan Louie (72210099)
-
-##### Assumptions:
-* Preliminary **SRS** has been written (which would include the use-case information we used in Appendix A)
-* **Vision** document has been written
-* **Business Case** document has been written based on the Vision document
-* **Risk List** has been compiled from the Business Cases
-* The data derived/included in **Assignment 3** is still valid and that the team is consisting of **5** people and are paid $5,500/month. However, because all the people are graduating, they will be working **Full Time** (>= 40 hours/week).
- 
-
-
----
-
-####Revision History
-
-Date | Version | Description | Author
------------- | ------------- | ------------
-26/03/2014 | 0.1  | Initial | Evan Louie
-
----
-
-
 ## 1. Introduction
 ### 1.1 Purpose
 The purpose of the Software Development Plan is to gather all information necessary to control the project. It describes the approach to the development of the software and is the top-level plan generated and used by managers to direct the development effort.
@@ -41,19 +13,21 @@ This Software Development Plan describes the overall plan to be used by the ISee
 The plans as outlined in this document are based upon the product requirements as defined in the *Use Case Document* (Appendix A).
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
-TODO
+* **Rational Unified Process ** - An iterative software development process framework.
+* **Scrum** - An Agile software development framework for managing software projects.
+* **Agile** - A paradigm of software development methods focusing on iteration, adaption to change, and discovery of granularity through refinements to wide band requirments.
+* **Sprint** - An iteration within the Scrum framework
+* **Iteration** - A timeboxed effort.
+* **Phase** - One or many iterations/sprints working towards a single unifying goal.
+
+Note: Sprint and iteration are used interchangably within this document.
+
 
 ### 1.4 References
-* Vision/SRS (Introduction Document)
-* Use Case Document (Appendix A)
-* Data Used (Appendix B)
-
-
 * Software Requirements Specification
-* Vision
-* Business Case
-* Risk List
-
+* Vision Document
+* Business Case Document
+* Use Case Document / Estimation Analysis (Appendix A)
 
 
 
@@ -72,17 +46,17 @@ This Software Development Plan contains the following information:
 ### 2.1 	Project Purpose, Scope, and Objectives
 We envisage building and launching in the market a software tool to support Investment Clubs. An investment club is a group of persons who pool their financial resources (i.e., cash) in order to acquire and manage collectively a portfolio of securities (such as stocks, or bonds, or other publicly traded financial instruments)..
 
+For a more indepth purpose, scope, and objectives statment, refer to Appenix A (Use Case Documents) introduction and features.
 
 ### 2.2  Assumptions and Constraints
-Version 1.0 of the system must be fully deployed and operational by the end of **Q3 2015**
+Version 1.0 of the system must be fully deployed and operational by **October 3, 2014**
 
 ### 2.3 Project Deliverables
-* Business Use Cases
+* Business Use Cases (Appendix A)
 * Business Use Case Survey
 * Glossary
 * Supplementary Specifications
 * Creative Design Briefs
-* Navigation Map
 * User Interface Prototype
 * Use Case Survey
 * Data Model
@@ -93,6 +67,8 @@ Version 1.0 of the system must be fully deployed and operational by the end of *
 * Test Package
 * Change Requests
 * Test Summary
+* Product Backlog
+
 
 ### 2.4 Evolution of the Software Development Plan
 The Software Development Plan will be revised prior to the start of each Iteration phase.
@@ -112,29 +88,43 @@ Version | Phase | Target Date
 
 ## 3. Project Organization
 ### 3.1 Organizational Structure
-The team will maintain a flat management structure in order to maintain agility and ease communication across the team.  However, there will be key roles delegated to certain people to maintain a single point of communication for important jobs as well as maintain accountability for milestones (see 3.3). As such, project roles will be delegated in accordance to those mentioned in the Rational Unified Process (RUP).  However, internal development practices will follow more closely with those of a SCRUM team.
+The team will maintain a flat management structure in order to maintain agility and ease communication across the team.  However, there will be roles delegated to  people to maintain a single point of communication for important jobs as well as maintain accountability for milestones (see 3.3). As such, project roles will be delegated in accordance to those mentioned in the Rational Unified Process (RUP).  However, internal development practices will follow more closely with those of a Scrum team.
 
 ### 3.2 External Interfaces
-The project will maintain largely in-house and within the one individual development team.  However input and feedback will be taken into account from investors and end-user asked to test the system.
+The project will maintain entirely in-house and within the one individual development team.  However input and feedback will be taken into account from investors and end-user asked to test the system.
 
 ### 3.3 Roles and Responsibilities
-Person | Role within Rational Unified Process
+Person | Role within Rational Unified Process AND/OR Scrum
 ---|---
 Evan Louie | Project Manager, Deployment Manager, Requirements Reviewer, Configuration Manager, Change Control Manager
 Jeff Chan | Project Reviewer, Requirements Reviewer, Architecture Reviewer
 Theo Ng | System Analyst, Requirements Specifier, Test Manager, Test Analyst 
-Kaya Gayos | Requirements Reviewer, Architecture Reviewer, Design Reviewer, User Interface Designer
-Matt Park| Software Architect
+Kaya Gayos | Requirements Reviewer, Architecture Reviewer, Design Reviewer, User Interface Designer, Scrum Master
+Matt Park| Software Architect, Product Owner
 All | Designer, Implementer, Code Reviewer, Integrator, Test Designer, Tester, Technical Writer
 
 ## 4. Management Process
 ### 4.1 Project Estimates
-The Inception and Construction phases are estimated to take approximately 3000 Person-Hours to complete (refer to Use-Case Point Analysis of Appendix A).  Add to this a minimum of 200 Person-Hours for Transition, the project will take approximately 3200 Person-Hours (4 Months with 5 staff members) and cost $110,000.00.
+The Inception and Construction phases are estimated to take approximately 3000 Person-Hours to complete (refer to Use-Case Point Analysis of Appendix A).  Add to this a minimum of 200 Person-Hours for the Transition Phase, the project will take approximately 3200 Person-Hours (4 Months with 5 staff members) and cost $110,000.00.
 
-For a more in-depth estimation analyses, refer to to Appendix A (Use-Case Analysis Document).
+For a more in-depth use case estimation analyses, refer to to Appendix A (Use-Case Analysis Document).
+
+An additional $30,000.00 will be required for hardware and internal software for development and deployment.  This funding will go towards:
+
+Hardware and Internal Expenses:
+* Servers
+* Development Machines
+* Development Environments (IDE Licensing, Bug Tracker Licensing, etc...)
+
+In total, the project is estimated to cost: **$140,000.00** and be completed by **October 8, 2014.**
 
 ### 4.2 Project Plan
 #### 4.2.1 Phase Plan
+Refer to:
+
+* Attached Gantt Chart (end of document)
+
+
 #### 4.2.2 Iteration Objectives
 
 Phase | Iteration | Objective
@@ -143,11 +133,11 @@ Inception | 1 | Define a set of high level requirements and goals for the final 
 Elaboration | 1 | Iterate and prototype on the high level requirements, refining user stories into tasks lists generating sprint backlogs.
 Construction | 1 | Complete database services layer. First UI prototype completed.
 Construction | 2 | User creation and login/logout, integration of UI assets and business logic. 
-Construction | 3 | Portfolio creation and automated portfolio evaluation.
-Construction | 4 | Connect to external services to get live currency and tax information.
-Construction | 5 | Generate and submit automatically submit tax forms
-Construction | 6 | 
-Construction | 7 | Change request freeze.  All lingering bugs and tasks in product backlog to be emptied.
+Construction | 3 | Portfolio creation and prototyping of automated portfolio valuation.
+Construction | 4 | Connect to external services to get live currency and tax information. Complete automated portfolio valuation
+Construction | 5 | Generate and submit tax forms based on location and custom to province/state/country.
+Construction | 6 | Refine UI/UX.
+Construction | 7 | Change Request freeze.  All lingering bugs and tasks in product backlog to be emptied.
 Transition | 1 | Final testing and deployment
 
 #### 4.2.3 Releases
@@ -159,31 +149,40 @@ At the very end of every phase/iteration (minus Inception), the product will be 
 After the completion of the transition phase, 1.0.0 (final) will be released.
 
 #### 4.2.4 Project Schedule
-TODO
+Refer to:
+
+* Attached Gantt Chart (end of document)
+
+
 #### 4.2.5 Project Resourcing
 ##### 4.2.5.1 Staffing Plan
-The project is planned to require the usage of the 5 preexisting members of the ISeeFin team.  The team already has the required software developers, UI/UX specialists, and business specialists required to cover all aspects required for development.
+The project is planned to require the usage of the 5 preexisting members of the ISeeFin team.  The team already has the required software developers, UI/UX specialists, and business analysts required to cover all aspects required for development.
 
 ##### 4.2.5.2 Resource Acquisition Plan
-All the staff needed to complete this project are preexisting members of the ISeeFin team.  Planning has been done the assumption that only these 5 people will be used.
+All the staff needed to complete this project are preexisting members of the ISeeFin team.  Planning has been done with the assumption that only these 5 people will be used.
 
 ##### 4.2.5.3 Training Plan
-Staff members have worked together as a team previously, as such, little to no is required. 
+Staff members have worked together as a team previously, as such, little to no is required in terms of team dynamics and workflow.  However, should the situation arise that a technology is chosen that only a select few have familiarity with:
+
+* Training sessions will be held prior to project kickoff. 
+* Project estimates will be re-analyzed and changes in the schedule will be escalated to the project sponsors, who will then decide whether to alter scope in order to preserve target completion dates.
+
+
 ### 4.3 Project Monitoring and Control
 #### 4.3.1 Requirements Management
-High level requirements and goal are found within the Vision document.  During Inception, the product backlog will be generated and act as the pool of requirements.  Once Inception is completed and the product backlog generated, adding to the backlog will either occur out of necessity found by the team, or by external stakeholders who will contact the product owner to relay any such change requests.  Any change request, whether it be to add/remove/modify a user story in the product backlog, will be evaluated at the end of current phase during the phase review.
+High level requirements and goal are found within the Vision document.  During Inception, the product backlog will be generated and act as the pool of requirements.  Once Inception is completed and the product backlog generated, adding to the backlog will either occur out of necessity found by the team, or by external stakeholders who will contact the product owner to relay any such change requests.  Any change request, whether it be to add/remove/modify a user story in the product backlog, will be evaluated at the end of an iteration during the sprint retrospective.
 
 #### 4.3.2 Schedule and Budget Control
 Expenses are monitored by the project manager, and reported and assessed monthly. (See Reporting and Measurement below).
 
-The project manager maintains the Gantt and burn down charts monitoring the expected date of each milestone.  The user stories in the sprint backlog are broken down into tasks, said tasks are assigned to individuals.  From the amount of tasks completed for a given user story, the project manager will extrapolated whether or not the project is on schedule.  Changes in the schedule will be escalated to the project sponsors, who will then decide whether to alter scope in order to preserve target completion dates.
+The project manager maintains the Gantt and burn down charts monitoring the expected date of each milestone.  The user stories in the sprint backlog are broken down into tasks, said tasks are assigned to individuals.  From the amount of tasks completed for a given user story, the project manager will extrapolate whether or not the project is on schedule.  Changes in the schedule will be escalated to the project sponsors, who will then decide whether to alter scope in order to preserve target completion dates.
 
 #### 4.3.3 Quality Control
-Development will engage in Test Driven Development to minimize defects.  However, found defects will be recorded and tracked as "bugs", and defects metrics will be gathered  (see Reporting and Measurement below).
+Development will engage in Test Driven Development to minimize defects.  However, found defects will be recorded and tracked as "bugs", and defect metrics will be gathered  (see Reporting and Measurement below).
 
-All deliverables and code is required to go through their respective review process.  All code will go under code review before merging to parent branch.
+All deliverables and code is required to go through their respective review process.  All code will go under code review before merging to main code branches.
 
-Any and all defects found during review which are unable to be released prior to end-of-sprint must be captured as bugs on the product backlog and be considered high priority within the next sprint.
+Any and all defects found during review which are unable to be fixed prior to end-of-sprint must be captured as bugs on the product backlog and be considered high priority within the next sprint.
 
 #### 4.3.4 Reporting and Measurement
 **Reporting Artifacts:**
@@ -203,15 +202,19 @@ Overarching project risks will be identified in the Inception Phase.  Subsequent
 
 Risk Ranking (High, Medium, Low) | Description/Impact | Mitigation Strategy
 ---------------------------------|--------------------|---------------------
-asdf | asf | asdf
+  |  | 
 
 #### 4.3.6 Configuration Management
 Appropriate tools will be selected which provide a database of Change Requests and a controlled versioned repository of project artifacts.
 
 All source code, test scripts, and data files are included in baselines. Documentation related to the source code is also included in the baseline, such as design documentation. All customer deliverable artifacts are included in the final baseline of the iteration, including executables.
 
-The Change Requests are reviewed and approved by a majority vote at the end or beginning of a spring (review or kickoff).
+The Change Requests are reviewed and approved by a majority vote at the end and/or beginning of a sprint (retrospective or kickoff).
 
 Full backups are performed bi-weekly and incrementals are performed nightly.
 ## 5. Annexes
-this document refers to many aspects of the Rational Unified Process.
+This document refers to many terms and ideas from:
+
+* Rational Unified Process
+* Agile Manifesto
+* Scrum Guide
